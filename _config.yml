@@ -2,3 +2,4 @@ name: "The Hacker Within"
 logo: /images/thw_icon.png
 markdown: redcarpet
 pygments: true
+url: http://thehackerwithin.github.io/wisconsin/
