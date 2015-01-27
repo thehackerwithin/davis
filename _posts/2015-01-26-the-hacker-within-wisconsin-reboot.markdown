@@ -13,8 +13,7 @@ specfiically, to meet on Friday, January 30, at 12 noon... and hopefully every
 
 The plan for that first meeting, now scheduled for ME2188, is to provide a
 brief overview of the Jekyll markup system for Github pages, facilitating
-others being able to contribute in the future.  That subject is now
-[at risk][thw-email].
+others being able to contribute in the future.  That subject is now [at risk][email].
 
 We did, however, identify a number of topics for future meetings.
 
@@ -63,3 +62,4 @@ Topics without identified presenters
 * large scale computing
 
 [thw]: http://thehackerwithin.github.io
+[email]: https://groups.google.com/forum/#!topic/wisc-hacker-within/G0IePqQw8Mg
