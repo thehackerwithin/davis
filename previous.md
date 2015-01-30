@@ -5,7 +5,8 @@ title: Previous Topics
 
 <section class="content">
 
-Here is the long list of previous topics.
+Previous Topics
+===============
 
 <ul class="listing">
 {% assign past_posts = (site.posts | where: "category" , "posts") %}
