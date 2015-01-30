@@ -18,7 +18,7 @@ charge of that topic to see if they would like to collaborate.
 
 
 <ul class="listing">
-{% assign upcoming = (site.posts | where: "category" , "upcoming") %}
+{% assign upcoming = (site.posts | where: "category", "upcoming") %}
 {% for post in upcoming reversed %}
 <li><span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
