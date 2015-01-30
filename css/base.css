@@ -110,8 +110,8 @@ a {
   .content p {
     font-size: 16px;
     margin-top: 0;
-    margin-bottom: 1.2em;
-    line-height: 1.7em; }
+    margin-bottom: 0.8em;
+    line-height: 1.2em; }
     .content p code {
       font-size: 12px;
       background-color: #eeeeee;
@@ -129,8 +129,8 @@ a {
     background-repeat: repeat-x;
     margin: 2em 3em; }
   .content li {
-    margin-bottom: 10px;
-    line-height: 1.4em; }
+    margin-bottom: 5px;
+    line-height: 1.1em; }
   .content blockquote {
     font-style: italic;
     font-size: 14px;
