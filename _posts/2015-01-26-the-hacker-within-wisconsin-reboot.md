@@ -2,7 +2,7 @@
 layout: post
 title:  "The Hacker Within, Wisconsin Reboot"
 author: Paul Wilson
-category: upcoming
+category: posts
 tags: meeting organization
 ---
 
