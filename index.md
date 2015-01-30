@@ -10,6 +10,7 @@ The {{ site.name }}
 
 <ul class="listing">
 <li> <span>Spring 2015</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
+<li> <span>Pre-2015</span> <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
 </ul>
 
 Next Meeting

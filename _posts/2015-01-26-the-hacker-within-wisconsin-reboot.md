@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The Hacker Within Wisconsin Reboot"
-date:   2015-01-26 16:20:09
-category: posts
+category: upcoming
+tags: meeting organization
 ---
 
 A group of about 20 interested people answered the call to contribute to a
