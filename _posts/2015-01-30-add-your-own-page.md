@@ -36,9 +36,6 @@ account, and that you have setup `git` previously on your local machine.
 
 **This is where the fun begins!**
 
-This standard template is using a flavor of *markdown* to apply
-formatting. *Markdown* is intended to be a very natural and concise way to apply
-very simple formatting to text.
 
 ### Metadata
 
@@ -53,15 +50,13 @@ example, you can access `{{ "{{ site.url " }}}}` as the base URL for the site: {
 There is also metadata that you can set for this page by changing the entries
 that you see at the top of the template:
 
-```
----
-layout: post
-title: Insert your title here
-author: Paul Wilson
-category: upcoming
-tags: choose some keywords as tags
----
-```
+    ---
+    layout: post
+    title: Insert your title here
+    author: Insert your name(s) here
+    category: upcoming
+    tags: choose some keywords as tags
+    ---
 
 These metadata do the following:
 
@@ -84,7 +79,12 @@ These metadata do the following:
 ### Formatting
 
 In addition to this metadata, you can format the text using some very simple
-command.  Here are some basics:
+command.  Our standard template is using a flavor of
+[*markdown*](http://daringfireball.net/projects/markdown/syntax) to apply
+formatting. *Markdown* is intended to be a very natural and concise way to
+apply very simple formatting to text.
+
+Here are some basics:
 
 - `#` or `##` or `###`, etc: This will indicate a heading of level 1, level 2,
   level 3, and so on.
@@ -97,11 +97,30 @@ command.  Here are some basics:
 
 - `[link text](link url)` will create a link from that "link text" to that "link url"
 
-- quoting your text with single back ticks will create an inline code-block
+- inserting an image looks almost like a link, but starts with an exclamation
+  mark `!`: `![Alt Text](image url)` will insert the image found at "image
+  url" and set the text altnerative to be "Alt Text".  For example, the Hacker
+  Within logo is included here with the alternative text of "Keep Hacking"
+  using: `![Keep Hacking](/images/thw_icon.png =200x100)` *(Bonus: I've
+  specified the size by adding `=200x100`)*
+
+  ![Keep Hacking](/images/thw_icon.png =200x100)
+
+- quoting your text with single back ticks will create an inline code-block, for example:
+  `` `sample code block` ``
 
 - `---` on a line by itself will create a horizontal rule like this:
 
----
+- - -
+
+- [simple tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+  are also possible with straightforward syntax
+
+| Headers | are | automatically bold |
+|---------|-----|-------------------:|
+| col 3   | is  | right justified    |
+
+*(The format of the table will depend on the stylesheet.)*
 
 Feel free to consult previous posts to get some clues for other useful markdown.
 
