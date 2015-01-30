@@ -2,7 +2,7 @@
 layout: post
 title:  "The Hacker Within Wisconsin Reboot"
 date:   2015-01-26 16:20:09
-categories: jekyll update
+category: posts
 ---
 
 A group of about 20 interested people answered the call to contribute to a

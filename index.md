@@ -1,35 +1,54 @@
 ---
-layout: default
-title: THW -  U. Wisconsin-Madison Branch
+layout: layout
+title: About
 ---
 
-The Hacker Within, began as a student organization at the University of
-Wisconsin-Madison, and is now reborn as a collection of such chapters around
-the world.
+<section class="content">
 
-=====================
+The {{ site.name }}
+===================
+
+<ul class="listing">
+<li> <span>Spring 2015</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
+</ul>
+
 Next Meeting
-=====================
+-------------
 
-* Date: Jan 20, 2015
+* Date: Jan 30, 2015
 * Time: 12-1 PM
 * Location: [2188 Mechanical Engineering][me_map]
-* Topic: Jekyll for Github Markdown (maybe)
+* Topic: Jekyll for Github Markdown
 
-===================
-Posts
-===================
+What:
+-----
 
-{% for post in site.posts %}
-{{ post.date | date: "%B %e, %Y" }}     [{{ post.title }}]({{ site.url }}{{ post.url }} )
-{% endfor %}
+A weekly meeting of researchers who are always learning new tips and tricks to
+make their computational work flow more smoothly.  In these friendly sessions,
+peers at all levels of experience share topics useful in our scientific
+software development workflows.
 
+This meeting would be a great venue for introducing new libraries, showing off
+useful features of a scientific library or programming language you're using,
+or bringing up a computational problem you're having.
 
-================
+Who:
+----
+
+Anyone interested in software development best practices is welcome to come to our meetings.
+
+When:
+-----
+
+Every second Friday, from 12-1 PM.
+
 Other chapters:
-================
+------------------
 
   * [U. California-Berkeley](http://thehackerwithin.github.io/berkeley) (USA)
   * [U. Melbourne](http://thehackerwithin.github.io/melbourne) (Australia)
+
+
+</section>
 
 [me_map]: http://map.wisc.edu/s/4olvug5e

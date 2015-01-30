@@ -5,7 +5,6 @@ auto: false
 rdiscount:
   extensions: [smart]
 github: thehackerwithin
-url: http://thehackerwithin.github.com/wisconsin
 name: Hacker Within, Wisconsin
 description: An initial blog and site for THW at UW-Madison
 twitter: hackerwithin
