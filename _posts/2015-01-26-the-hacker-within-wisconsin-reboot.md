@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Hacker Within Wisconsin Reboot"
+title:  "The Hacker Within, Wisconsin Reboot"
 category: upcoming
 tags: meeting organization
 ---
@@ -27,7 +27,6 @@ We were able to brainstorm a fairly extensive list of topics.  Two important obs
    interested in - or even better, interested in presenting! - then please
    feel free to add it to the list.
 
-=================================
 Those with potential presenters
 =================================
 
