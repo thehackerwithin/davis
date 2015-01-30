@@ -4,7 +4,6 @@ permalink: /posts/:title
 auto: false
 rdiscount:
   extensions: [smart]
-github: thehackerwithin
 name: Hacker Within, Wisconsin
 description: An initial blog and site for THW at UW-Madison
 twitter: hackerwithin
