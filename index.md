@@ -32,6 +32,11 @@ Anyone interested in software development best practices is welcome to
 come to our meetings.
 
 
+Where:
+-----
+
+Put a map here. 
+
 When:
 -----
 
