@@ -34,7 +34,17 @@ our meetings.
 Where:
 -----
 
-Put a map here.
+Shields Library
+UC Davis
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d551.6751757040454!2d-121.7491979229739!3d38.539621434012915!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1449611696153"
+  width="600"
+  height="450"
+  frameborder="0"
+  style="border:0"
+  allowfullscreen>
+</iframe>
 
 When:
 -----
@@ -64,9 +74,9 @@ Participating is really easy.
   here's the place to ask many ears about it at once.
 </li>
 
-The Hacker Within relies on peer-driven teaching, so please volunteer to
-give one of these talks. To do so, just ping the listhost by email at
-[ucb-hacker-within@lists.berkeley.edu](mailto:ucb-hacker-within@lists.berkeley.edu).
+The Hacker Within relies on peer-driven teaching, so please volunteer to give
+one of these talks. To do so, just ping the listhost by email at
+[thehackerwithin@ucdavis.edu](mailto:thehackerwithin@ucdavis.edu).
 
 
 Why:
@@ -76,7 +86,6 @@ The tenets of scientiﬁc endeavor (e.g., data control, reproducibility,
 comprehensive documentation, and peer review) suffer in projects that fail to
 make use of current development tools such as unit testing, version control,
 automated documentation, and others.
-
 
 To avoid these pitfalls, this weekly meeting exists for sharing skills and best
 practices for computational scientific applications. This group is modeled
@@ -95,7 +104,6 @@ Global Organization:
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-
 
 </section>
 
