@@ -1,6 +1,6 @@
-wisconsin
-=========
+The Hacker Within
+=================
 
-U. Wisconsin-Madison
+UC Daviv's "The Hacker Within" branch website.
 
-[Link to website](http://thehackerwithin.github.io/wisconsin/)
+[Link to website](http://thehackerwithin.org/davis/)
