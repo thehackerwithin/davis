@@ -20,8 +20,8 @@ A monthly meetup of researchers, scientists, and engineers who are always
 learning new tips and tricks to make their computational and data work flows
 better. Topics will be focused around scientific computing and data
 technologies. We call it "The Hacker Within" because we believe that everyone
-can grow their computational skills. In these friendly sessions, peers at all
-levels of experience share topics useful to our work.
+can find their inner computational skills. In these friendly sessions, peers at
+all levels of experience share topics useful to our work.
 
 This meeting would be a great venue for introducing new libraries, showing off
 useful features of a scientific library or programming language you're using,
@@ -55,9 +55,8 @@ When:
 
 The second Thursday of the month at at 5:10pm. While the main talk should
 occupy less than an hour, the lightning talks and hacking session can go on
-until 6:00pm or later. See the [upcoming topics list]({{ site.url
-}}/upcoming.html) or the [calendar](http://bit.ly/1cqFKuh) for the topic for
-this week.
+until 6:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
+or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
 
 How:
 -----
