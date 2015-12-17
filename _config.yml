@@ -2,6 +2,7 @@ markdown: rdiscount
 pygments: true
 permalink: /posts/:title
 auto: false
+exclude: [vendor]
 rdiscount:
   extensions: [smart]
 url: http://thehackerwithin.github.com/davis
