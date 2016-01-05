@@ -98,6 +98,11 @@ chapters around the world. Each of the chapters convenes a community of
 scientists, at all levels of their education and training, to share their
 knowledge and best practices in using computing to accomplish their work.
 
+Support:
+--------
+
+The Hacker Within is supported by the [UCD Data Science
+Initiative](http://datascience.ucdavis.edu/).
 
 Global Organization:
 ---------------------
