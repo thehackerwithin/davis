@@ -37,8 +37,8 @@ our meetings.
 Where:
 -----
 
-Data Science Initiative Classroom
-Third Floor Shields Library
+Data Science Initiative Classroom </br>
+Third Floor Shields Library, Rm 360 </br>
 UC Davis
 
 <iframe
@@ -55,28 +55,28 @@ When:
 
 The second Thursday of the month at at 5:10pm. While the main talk should
 occupy less than an hour, the lightning talks and hacking session can go on
-until 6:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
+until 7:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
 
 How:
 -----
 
 Participating is really easy.
-<li>At **5:10pm**, we gather and go through a round of introductions. New
-  faces are always appearing!</li>
-<li>Next, a volunteer will give a **tutorial** or lead a **discussion** about a
+
+- At **5:10pm**, we gather and go through a round of introductions. New faces
+  are always appearing!
+- Next, a volunteer will give a **tutorial** or lead a **discussion** about a
   computational topic. This topic can be anything useful, new, or interesting
-  to those who compute. It may be some new skill you have recently picked
-  up in your research, a productivity tool you have recently learned to love,
-  an overview of a useful library, or anything you feel we would enjoy
-  learning.</li>
-<li>Finally, there will be a time for a handful of **[Lightning
+  to those who compute. It may be some new skill you have recently picked up in
+  your research, a productivity tool you have recently learned to love, an
+  overview of a useful library, or anything you feel we would enjoy
+  learning.
+- Finally, there will be a time for a handful of **[Lightning
   Talks](https://en.wikipedia.org/wiki/Lightning_talk)**, which are 5 minute
   blasts of information about a particular topic or question of interest to the
   group. **Note** that the lightning talk time is a good way to bring a
   question to the group. If you have a bug you need help with, here's the place
   to ask many ears about it at once.
-</li>
 
 The Hacker Within relies on peer-driven teaching, so please volunteer to give
 one of these talks. To do so, just ping the listhost by email at
