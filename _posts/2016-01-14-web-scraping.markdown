@@ -28,7 +28,9 @@ We will spend some time setting up the future talks and goals for the group.
 
 ## Lightning Talks
 
-## Jason K. Moore : SymPy: Python Based CAS
+## Jason K. Moore : Symbolic Mathematics with Python
+
+[Jason](http://moorepants.info) is a lead developer with the [SymPy](http://sympy.org) project. SymPy is a computer aided algebra (CAS) system that allows you to use the computer instead of pencil and paper to work out mathematical relationships. It can do algebra, trigonometry, calculus, linear algebra, and much more. SymPy is used to power a number of apps on different platforms and is used to drive symbolic computation in other languages like Octave, Julia, and Sage in addition to Python. SymPy is an open source package developed by close to 500 developers from all around the world and provides similar functionality as proprietary programs such as Maple, Mathematica, MathCAD, etc. It is [utilized for high level research](http://depsy.org/package/python/sympy) in fields such as physics, mathematics, and engineering.
 
 ## Richard Feltstykket : Zettabyte Filesystem (ZFS)
 
