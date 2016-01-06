@@ -14,7 +14,7 @@ Anyone interested in scraping websites for data collection purposes.
 
 Duncan is a Professor of Statistics and the Director of the UC Davis Data
 Science Initiative. See his [website](http://www.stat.ucdavis.edu/~duncan) for
-more information about him:
+more information about him.
 
 ## Web Scraping
 
