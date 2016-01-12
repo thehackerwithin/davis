@@ -80,7 +80,9 @@ Participating is really easy.
 
 The Hacker Within relies on peer-driven teaching, so please volunteer to give
 one of these talks. To do so, just ping the listhost by email at
-[thehackerwithin@ucdavis.edu](mailto:thehackerwithin@ucdavis.edu).
+[thehackerwithin@ucdavis.edu](mailto:thehackerwithin@ucdavis.edu). You will
+need to subscribe to the list first at
+[lists.ucdavis.edu](https://lists.ucdavis.edu/sympa/info/thehackerwithin).
 
 Why:
 ----
