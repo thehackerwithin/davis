@@ -27,6 +27,11 @@ We will spend some time setting up the future talks and goals for the group.
 
 ## Lightning Talks
 
+Please let us know if you'd like to give and informal 3-5 minute lightning
+talk. Post and issue or a pull request at:
+
+https://github.com/thehackerwithin/davis
+
 ## Jason K. Moore : Symbolic Mathematics with Python
 
 [Jason](http://moorepants.info) is a lead developer with the
@@ -43,7 +48,5 @@ provides similar functionality as proprietary programs such as Maple,
 Mathematica, MathCAD, etc. It is [utilized for high level
 research](http://depsy.org/package/python/sympy) in fields such as physics,
 mathematics, and engineering.
-
-## Richard Feltstykket : Zettabyte Filesystem (ZFS)
 
 [code]: {{ site.github.repository_url }}/tree/master/topic
