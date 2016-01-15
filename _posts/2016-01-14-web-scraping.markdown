@@ -30,7 +30,7 @@ We will spend some time setting up the future talks and goals for the group.
 Please let us know if you'd like to give and informal 3-5 minute lightning
 talk. Post and issue or a pull request at:
 
-https://github.com/thehackerwithin/davis
+[https://github.com/thehackerwithin/davis](https://github.com/thehackerwithin/davis)
 
 ## Jason K. Moore : Symbolic Mathematics with Python
 
@@ -51,4 +51,4 @@ mathematics, and engineering.
 
 ## Meeting Materials
 
-[code]: {{ site.github.repository_url }}/gh-pages/meeting-materials/2016-01-14
+[materials](https://github.com/thehackerwithin/davis/tree/gh-pages/meeting-materials/2016-01-14)
