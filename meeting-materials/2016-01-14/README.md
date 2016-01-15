@@ -1,7 +1,3 @@
-The materials from this meeting can be found at:
-
-https://github.com/thehackerwithin/davis/tree/gh-pages/meeting-materials/2016-01-14
-
 # Introduction
 
 [Slides](http://nbviewer.ipython.org/format/slides/github/thehackerwithin/davis/blob/gh-pages/meeting-materials/2016-01-14/thw-intro.ipynb#/)
