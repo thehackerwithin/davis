@@ -49,4 +49,6 @@ Mathematica, MathCAD, etc. It is [utilized for high level
 research](http://depsy.org/package/python/sympy) in fields such as physics,
 mathematics, and engineering.
 
-[code]: {{ site.github.repository_url }}/tree/master/topic
+## Meeting Materials
+
+[code]: {{ site.github.repository_url }}/gh-pages/meeting-materials/2016-01-14
