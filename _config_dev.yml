@@ -1,3 +1,4 @@
+markdown: rdiscount
 pygments: true
 permalink: /posts/:title
 auto: false
