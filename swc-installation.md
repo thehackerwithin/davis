@@ -1,3 +1,8 @@
+---
+layout: layout
+title: "Standard SWC Installation"
+---
+
 <!--
   SETUP
   Delete irrelevant sections from the setup instructions.  Each
@@ -7,6 +12,8 @@
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
+
+<section class="content">
 
 <h2 id="setup">Setup</h2>
 
@@ -339,39 +346,4 @@
   </div>
 </div> <!-- End of 'R' section. -->
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_github}}/windows-installer">Software Carpentry Windows Installer</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">Mac OS X</h4>
-      <p>
-        SQLite comes pre-installed on Mac OS X.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
+</section>

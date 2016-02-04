@@ -36,7 +36,7 @@ The linked installation instructions will setup a basic environment on your
 operating system of choice (Windows, Mac, Linux) that will give you access to
 BASH, Python, Git, and R. In addition, you will need an up-to-date web browser.
 
-[Software Carpentry Standard Installation](http://www.thehackerwithin.org/davis/swc-installation.html)
+[Software Carpentry Standard Installation]({{ site.url }}/swc-installation.html)
 
 ## Lightning Talks
 
