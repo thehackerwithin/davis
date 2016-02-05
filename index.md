@@ -55,8 +55,8 @@ When:
 
 The second Thursday of the month at at 5:10pm. While the main talk should
 occupy less than an hour, the lightning talks and hacking session can go on
-until 7:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
-or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
+until 7:00pm or later. See the [upcoming topics list]({{ site.url
+}}/upcoming.html) for the topic for this week.
 
 How:
 -----
