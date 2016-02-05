@@ -13,7 +13,35 @@ system, Git, tick.
 
 ## Michael Hannon
 
-TBA
+### Short bio
+
+My educational background is in physics, with an emphasis on computational
+physics.  Through a circuitous route, I wound up managing a small
+computer-support group in the UCD Physics department, which I did until
+I retired.
+
+I got interested in computational statistics when I accompanied my wife (a
+research scientist with a group in the Stanford medical school, applying
+statistics to genetics) to one of Duncan Temple Lang's classes.  There
+I discovered that (a) the material was interesting, and (b) and lot of my
+background was relevant to the topics.
+
+I currently have a cheesy, hourly job at Stanford, supporting my wife's
+computing efforts.  I'm also an unpaid consultant to a small, start-up company
+in Davis.  (It pays to stay in school ;-)
+
+### This talk
+
+As I noticed the haphazard computing practices at the company, I tried to bring
+to the company the gospel of Duncan, leading to my giving an introductory talk
+about `git`, which I had been using rather casually for a number of years. That
+exercise piqued my interest in `git`.  Where do those monstrous ID numbers come
+from in the first place?  Where do the files *really* go when you make a new
+commit or switch to a new branch?  What is this `HEAD` thing that keeps popping
+up in discussions of `git`.
+
+This talk is basically a `core dump` of my brief exploration of those kinds of questions.
+
 
 ## Git Internals
 
