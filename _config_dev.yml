@@ -1,3 +1,4 @@
+future: true
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
