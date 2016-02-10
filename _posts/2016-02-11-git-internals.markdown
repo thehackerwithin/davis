@@ -72,6 +72,12 @@ talk. Post and issue or a pull request at:
 
 ### 6:00 PM: Automated Image Recognition [Carl Stahmer]
 
+### 6:05 PM: Introduction to Stan, a probabilistic programming language for Bayesian inference. [Matt Espe]
+
+Stan is an open source, simple programming language for creating probabilistic models and conducting inference via several methods (Hamiltonian Monte Carlo, variational inference, and optimization). Runs in C++, with interfaces to many popular analysis programs (R, Python, Julia, command-line, Stata, etc.).
+
+[http://mc-stan.org/](http://mc-stan.org/)
+
 ## Meeting Materials
 
 [materials](https://github.com/thehackerwithin/davis/tree/gh-pages/meeting-materials/2016-02-11)
