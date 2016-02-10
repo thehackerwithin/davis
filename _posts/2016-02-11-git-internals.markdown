@@ -61,7 +61,7 @@ BASH, Python, Git, and R. In addition, you will need an up-to-date web browser.
 
 ### Materials
 
-https://github.com/DavisDaddy/hacker-talks/tree/master/internals
+[https://github.com/DavisDaddy/hacker-talks/tree/master/internals](https://github.com/DavisDaddy/hacker-talks/tree/master/internals)
 
 ## Lightning Talks
 
