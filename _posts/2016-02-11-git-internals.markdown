@@ -11,7 +11,18 @@ tags: meeting git bash python
 Anyone interested in learning a bit more about what makes the version control
 system, Git, tick.
 
-## Michael Hannon
+## Git Internals with Michael Hannon
+
+As I noticed the haphazard computing practices at the company, I tried to bring
+to the company the gospel of Duncan, leading to my giving an introductory talk
+about `git`, which I had been using rather casually for a number of years. That
+exercise piqued my interest in `git`.  Where do those monstrous ID numbers come
+from in the first place?  Where do the files *really* go when you make a new
+commit or switch to a new branch?  What is this `HEAD` thing that keeps popping
+up in discussions of `git`.
+
+This talk is basically a `core dump` of my brief exploration of those kinds of
+questions.
 
 ### Short bio
 
@@ -30,25 +41,7 @@ I currently have a cheesy, hourly job at Stanford, supporting my wife's
 computing efforts.  I'm also an unpaid consultant to a small, start-up company
 in Davis.  (It pays to stay in school ;-)
 
-### This talk
-
-As I noticed the haphazard computing practices at the company, I tried to bring
-to the company the gospel of Duncan, leading to my giving an introductory talk
-about `git`, which I had been using rather casually for a number of years. That
-exercise piqued my interest in `git`.  Where do those monstrous ID numbers come
-from in the first place?  Where do the files *really* go when you make a new
-commit or switch to a new branch?  What is this `HEAD` thing that keeps popping
-up in discussions of `git`.
-
-This talk is basically a `core dump` of my brief exploration of those kinds of questions.
-
-
-## Git Internals
-
-Instructional materials will be added here before the meeting. Please check
-back.
-
-## Prerequisites
+### Prerequisites
 
 You should have basic familiarity with
 [Git](https://en.wikipedia.org/wiki/Git_%28software%29) and/or other version
@@ -58,13 +51,17 @@ control systems. Additionally, we will be using basic
 scripts, so basics in programming will be helpful. Be sure to install the
 needed software shown below before coming to the tutorial.
 
-## Installation
+### Installation
 
 The linked installation instructions will setup a basic environment on your
 operating system of choice (Windows, Mac, Linux) that will give you access to
 BASH, Python, Git, and R. In addition, you will need an up-to-date web browser.
 
 [Software Carpentry Standard Installation]({{ site.url }}/swc-installation.html)
+
+### Materials
+
+https://github.com/DavisDaddy/hacker-talks/tree/master/internals
 
 ## Lightning Talks
 
@@ -73,9 +70,8 @@ talk. Post and issue or a pull request at:
 
 [https://github.com/thehackerwithin/davis](https://github.com/thehackerwithin/davis)
 
-TBA
+### 6:00 PM: Automated Image Recognition [Carl Stahmer]
 
 ## Meeting Materials
 
 [materials](https://github.com/thehackerwithin/davis/tree/gh-pages/meeting-materials/2016-02-11)
-
