@@ -9,8 +9,8 @@ The {{ site.name }}
 ===================
 
 <ul class="listing">
-<li> <span>Spring 2016</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
-<li> <span>pre-2016</span> <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
+  <li> <span>Spring 2016</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
+  <li> <span>pre-2016</span> <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
 </ul>
 
 What:
@@ -55,8 +55,8 @@ When:
 
 The second Thursday of the month at at 5:10pm. While the main talk should
 occupy less than an hour, the lightning talks and hacking session can go on
-until 7:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
-or the [calendar](http://bit.ly/1cqFKuh) for the topic for this week.
+until 7:00pm or later. See the [upcoming topics list]({{ site.url
+}}/upcoming.html) for the topic for this week.
 
 How:
 -----
@@ -80,7 +80,9 @@ Participating is really easy.
 
 The Hacker Within relies on peer-driven teaching, so please volunteer to give
 one of these talks. To do so, just ping the listhost by email at
-[thehackerwithin@ucdavis.edu](mailto:thehackerwithin@ucdavis.edu).
+[thehackerwithin@ucdavis.edu](mailto:thehackerwithin@ucdavis.edu). You will
+need to subscribe to the list first at
+[lists.ucdavis.edu](https://lists.ucdavis.edu/sympa/info/thehackerwithin).
 
 Why:
 ----

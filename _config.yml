@@ -1,3 +1,4 @@
+future: true
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
@@ -10,5 +11,5 @@ name: Hacker Within, University of California, Davis
 description: An initial blog and site for THW at UC Davis
 twitter: hackerwithin
 gravatar_url: http://www.gravatar.com/avatar/0203c034a145af6cc2576d56cdb4cf73
-disqus_username: hackerwithinadmin
-
+disqus_username: thehackerwithindavis
+email_list_url: https://lists.ucdavis.edu/sympa/info/thehackerwithin
