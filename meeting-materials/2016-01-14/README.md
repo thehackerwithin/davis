@@ -13,6 +13,7 @@
 - Duncan: NIMBLE
 - Jerome: Probablistic Programming [Tutorial]
 - Jason: How to teach programming tutorials [Tutorial]
+- Jim: SQL [Tutorial or Lightning]
 
 ## Wanted Topics
 
