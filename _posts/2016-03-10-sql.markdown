@@ -1,0 +1,50 @@
+---
+layout: post
+title: SQL
+author: Jim Vanderveen
+category: upcoming
+tags: meeting sql
+---
+
+## Attending
+
+Anyone interested in learning about structured databases for storing and
+organizing your data.
+
+## SQL with Jim Vanderveen
+
+Add explanation of tutorial/discussion/talk here.
+
+### Short bio
+
+Tell us about your self.
+
+### Prerequisites
+
+Please specify what prerequisite knowledge and skills the attendees should
+have.
+
+### Installation
+
+The linked installation instructions will setup a basic environment on your
+operating system of choice (Windows, Mac, Linux) that will give you access to
+BASH, Python, Git, and R. In addition, you will need an up-to-date web browser.
+
+[Software Carpentry Standard Installation]({{ site.url }}/swc-installation.html)
+
+### Materials
+
+[https://github.com/DavisDaddy/hacker-talks/tree/master/internals](https://github.com/DavisDaddy/hacker-talks/tree/master/internals)
+
+## Lightning Talks
+
+Please let us know if you'd like to give and informal 3-5 minute lightning
+talk. Post and issue or a pull request at:
+
+[https://github.com/thehackerwithin/davis](https://github.com/thehackerwithin/davis)
+
+TBA
+
+## Meeting Materials
+
+[materials](https://github.com/thehackerwithin/davis/tree/gh-pages/meeting-materials/2016-03-10)
