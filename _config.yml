@@ -1,5 +1,9 @@
 future: true
-markdown: rdiscount
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
 pygments: true
 permalink: /posts/:title
 auto: false
