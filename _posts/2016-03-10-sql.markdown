@@ -13,16 +13,17 @@ organizing your data.
 
 ## SQL with Jim Vanderveen
 
-Add explanation of tutorial/discussion/talk here.
+This will be a short "hands-on" introduction to SQLite, demonstrating basic CRUD (Create, Read, Update, Delete) operations and your new best friend, the Data Dictionary. If time permits, we'll also cover additional topics such as NULL values, logically linking multiple tables using JOIN, and some aggregations, e.g. COUNT and SUM.
 
 ### Short bio
 
-Tell us about your self.
+I've been hacking computers since 1976 when I taught myself BASIC. I started working with SQL and relational databases circa 1995. Lately I've been doing database programming for the UC Davis Library, and playing with network- and database "Internet of Things" projects in my spare time.
 
 ### Prerequisites
 
-Please specify what prerequisite knowledge and skills the attendees should
-have.
+Attendees should have followed the [Software Carpentry Standard Installation]({{ site.url }}/swc-installation.html) on their laptops. In particular, you will need to have SQLite installed.
+
+Attendees should also be familiar with a text editor on their laptops.
 
 ### Installation
 
