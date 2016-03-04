@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL
+title: Relational Databases with SQL
 author: Jim Vanderveen
 category: upcoming
 tags: meeting sql
@@ -11,31 +11,38 @@ tags: meeting sql
 Anyone interested in learning about structured databases for storing and
 organizing your data.
 
-## SQL with Jim Vanderveen
+## Relation Databases with SQL [Jim Vanderveen]
 
-This will be a short "hands-on" introduction to SQLite, demonstrating basic CRUD (Create, Read, Update, Delete) operations and your new best friend, the Data Dictionary. If time permits, we'll also cover additional topics such as NULL values, logically linking multiple tables using JOIN, and some aggregations, e.g. COUNT and SUM.
+This will be a short "hands-on" introduction to the [Structured Query Language
+(SQL)](https://en.wikipedia.org/wiki/SQL) with
+[SQLite](https://en.wikipedia.org/wiki/SQLite), demonstrating basic CRUD
+(Create, Read, Update, Delete) operations and your new best friend, the Data
+Dictionary. If time permits, we'll also cover additional topics such as NULL
+values, logically linking multiple tables using JOIN, and some aggregations,
+e.g. COUNT and SUM.
 
 ### Short bio
 
-I've been hacking computers since 1976 when I taught myself BASIC. I started working with SQL and relational databases circa 1995. Lately I've been doing database programming for the UC Davis Library, and playing with network- and database "Internet of Things" projects in my spare time.
+I've been hacking computers since 1976 when I taught myself BASIC. I started
+working with SQL and relational databases circa 1995. Lately I've been doing
+database programming for the UC Davis Library, and playing with network- and
+database "Internet of Things" projects in my spare time.
 
 ### Prerequisites
 
-Attendees should have followed the [Software Carpentry Standard Installation]({{ site.url }}/swc-installation.html) on their laptops. In particular, you will need to have SQLite installed.
-
-Attendees should also be familiar with a text editor on their laptops.
-
-### Installation
+Attendees should have followed the [Software Carpentry Standard
+Installation]({{ site.url }}/swc-installation.html) on their laptops. In
+particular, you will need to have SQLite installed.
 
 The linked installation instructions will setup a basic environment on your
 operating system of choice (Windows, Mac, Linux) that will give you access to
 BASH, Python, Git, and R. In addition, you will need an up-to-date web browser.
 
-[Software Carpentry Standard Installation]({{ site.url }}/swc-installation.html)
+Attendees should also be familiar with a text editor on their laptops.
 
 ### Materials
 
-[https://github.com/DavisDaddy/hacker-talks/tree/master/internals](https://github.com/DavisDaddy/hacker-talks/tree/master/internals)
+TBA
 
 ## Lightning Talks
 
@@ -44,7 +51,11 @@ talk. Post and issue or a pull request at:
 
 [https://github.com/thehackerwithin/davis](https://github.com/thehackerwithin/davis)
 
-TBA
+### Optimal Control with Direct Collocation [Jason Moore]
+
+I'll give a demo of some software that I've been developing that allows you to
+express optimal control problems as a high mathematical level and automatically
+solve trajectory optimization and parameter estimation problems.
 
 ## Meeting Materials
 
