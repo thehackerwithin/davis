@@ -57,6 +57,13 @@ I'll give a demo of some software that I've been developing that allows you to
 express optimal control problems as a high mathematical level and automatically
 solve trajectory optimization and parameter estimation problems.
 
+### ShareLaTeX Continuous Integration [Kenneth Lyons]
+
+ShareLaTeX provides a continuous integration (CI) service which automatically
+rebuilds your LaTeX document hosted on GitHub each time you push a commit.
+I will briefly walk through setting up ShareLaTeX CI and demonstrate it in
+action.
+
 ## Meeting Materials
 
 [materials](https://github.com/thehackerwithin/davis/tree/gh-pages/meeting-materials/2016-03-10)
