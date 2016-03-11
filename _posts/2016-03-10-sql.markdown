@@ -42,7 +42,7 @@ Attendees should also be familiar with a text editor on their laptops.
 
 ### Materials
 
-https://github.com/jimvanderveen/sql-tutorial-01
+[https://github.com/jimvanderveen/sql-tutorial-01](https://github.com/jimvanderveen/sql-tutorial-01)
 
 ## Lightning Talks
 
