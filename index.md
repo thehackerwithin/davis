@@ -37,8 +37,8 @@ our meetings.
 Where:
 -----
 
-Data Science Initiative Classroom </br>
-Third Floor Shields Library, Rm 360 </br>
+Data Science Initiative Classroom       
+Third Floor Shields Library, Rm 360      
 UC Davis
 
 <iframe

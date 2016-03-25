@@ -2,7 +2,7 @@
 layout: post
 title: Git Internals
 author: Michael Hannon
-category: upcoming
+category: previous
 tags: meeting git bash python
 ---
 

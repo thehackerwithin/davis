@@ -2,7 +2,7 @@
 layout: post
 title: Relational Databases with SQL
 author: Jim Vanderveen
-category: upcoming
+category: previous
 tags: meeting sql
 ---
 
