@@ -53,7 +53,6 @@ After installing `Docker`, start the Docker daemon via `Docker quickstart
 terminal`, in the new terminal, execute:
 
 ```
-$ docker pull ubuntu:14.04  # optional
 $ docker pull karenyng/hackerwithin_dockerfile
 ```
     
@@ -64,7 +63,7 @@ appropriate location:
 $ git clone https://github.com/thehackerwithin/davis.git
 ```
    
-Attendees should also be familiar with a text editor on their laptops.
+Attendees should also be familiar with basic shell commands and a text editor on their laptops.
 
 ### Materials
 * [Docker file](https://github.com/karenyyng/hackerwithin_dockerfile) for the
