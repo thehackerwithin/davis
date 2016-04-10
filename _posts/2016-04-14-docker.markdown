@@ -9,11 +9,11 @@ tags: meeting docker git jekyll
 ## Attending
 
 Anyone interested in learning about    
-1) using container technology from `Docker` to capture software deployment for    
+1) using the container technology called `Docker` to capture software deployment for    
 
 * building reproducible scientific software and / or
 * teaching and /or
-* scaling distributed apps on the cloud 
+* apps on the cloud 
 
 2) how to update the `HackerWithin` Davis chapter website and use the fancy web
 framework `Jekyll`  
@@ -22,7 +22,7 @@ framework `Jekyll`
 
 ## Capturing software builds with `Docker` [[Karen Ng](karenyyng.github.io)]
 As software gets more and more complicated nowadays, `Docker`
-provides safe encapsulated environments to exactly capture the requirements,
+provides safe encapsulated environments to capture the requirements,
 installation and deployment steps. Gone are the days when one has to spend hours to read
 through manuals and stack-overflow to build a piece of software, only to find the build 
 broke other software on the machine. 
@@ -35,10 +35,10 @@ notebooks`.
 
 ### Short bio
 I am a Physics PhD final year student eager to learn about different data
-technologies. I just completed two internships related to scalable data
-analytics, first at the Lawrence Livermore National Lab. where I built an
-end-to-end data analytics pipeline with `Spark` and `Hadoop`, then at the Lawrence
-Berkeley National Lab. (NERSC) for parallelizing the computation of an astrophysics 
+technologies. I have just completed two internships related to scalable data
+analytics. The first one was at the Lawrence Livermore National Lab., where I built an
+end-to-end data analytics pipeline with `Spark` and `Hadoop`. The second one was at the Lawrence
+Berkeley National Lab. (NERSC), where I worked on parallelizing the computation of an astrophysics 
 project. I am looking for good data science career opportunities to utilize my
 analytics skills. 
 
@@ -46,23 +46,30 @@ analytics skills.
 ### Prerequisites
 
 * Git, 
-* [Virtual Box](https://www.virtualbox.org/wiki/Downloads) (if you do not have Linux as your OS)
 * [Docker](https://docs.docker.com/engine/installation/) 
+* [Virtual Box](https://www.virtualbox.org/wiki/Downloads) (if you do not have Linux as your OS)
 
-After installing `Docker`, start the Docker daemon via `Docker quickstart
-terminal`, in the new terminal, execute:
+After installing `Docker`, you can test that it work by starting the `Docker daemon`. 
 
+For Linux users, executing: 
 ```
+$ sudo docker -d &
+```
+will start the `Docker` daemon in the background. 
+
+For Mac and Windows users, run the `Docker daemon`
+by looking for an application called `Docker quickstart terminal` and start it. 
+
+After the `Docker` daemon is up and running (in the `quickstart terminal`), 
+execute:
+
+```bash
 $ docker pull karenyng/hackerwithin_dockerfile
 ```
-    
-And download the `Git` repo for the `Hackerwithin` Davis Chapter to an
-appropriate location:   
 
-```
-$ git clone https://github.com/thehackerwithin/davis.git
-```
-   
+To download the `Docker` file that we are going to use.
+(Linux users may need prepend `sudo` to the above command.)
+ 
 Attendees should also be familiar with basic shell commands and a text editor on their laptops.
 
 ### Materials
