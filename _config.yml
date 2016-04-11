@@ -9,7 +9,7 @@ auto: false
 exclude: [vendor]
 rdiscount:
   extensions: [smart]
-url: http://thehackerwithin.github.com/davis
+url: http://www.thehackerwithin.org/davis
 name: Hacker Within, University of California, Davis
 description: An initial blog and site for THW at UC Davis
 twitter: hackerwithin
