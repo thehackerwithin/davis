@@ -2,7 +2,7 @@
 layout: post
 title: Web Scraping
 author: Duncan Temple Lang
-categorya: previous
+category: previous
 tags: meeting web scraping
 ---
 
