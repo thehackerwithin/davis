@@ -84,6 +84,8 @@ talk. Post and issue or a pull request at:
 
 [https://github.com/thehackerwithin/davis](https://github.com/thehackerwithin/davis)
 
+### Data Science in the Intensive Care Unit [Greg Rehm]
+Greg Rehm is a UC Davis Computer Science Masters Student. He will talk about gathering patient data in hospital ICUs and what we can do with that data to improve quality of care.
 
 ## Meeting Materials
 
