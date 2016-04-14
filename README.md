@@ -27,6 +27,7 @@ How to contribute
    documentation](https://help.github.com/articles/syncing-a-fork/) for more
    detail.
    ```
-   $ git remote add upstream https://github.com/thehackerwithin/davis.git
-   $ git fetch upstream
+   $ git remote add upstream https://github.com/thehackerwithin/davis.git    
+   $ git fetch upstream    
+   $ git pull upstream gh-pages
    ```

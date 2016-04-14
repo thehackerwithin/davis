@@ -9,6 +9,7 @@ Speaker: [Karen Ng](http://karenyyng.github.io)
 * What is Docker?
 * Basic docker terminologies and commands
 * Hands-on exercise: Using Docker to update theHackerWithin Davis chapter website 
+* Markdown outline of slides available [here]()
 
 # Why Docker?
 ![][2]
@@ -49,7 +50,7 @@ VM has more overhead
 # Dockerhub 
 an [online registry](link) where you can pull and host publicly available Docker images
 ```
-$ docker pull karenyng/hackerwithin_davis
+$ docker pull karenyng/hackerwithin_dockerfile
 ```
 searches Dockerhub for an image file
 
@@ -94,10 +95,8 @@ $ vim Dockerfile
 
 
 # How did I build and debug the image? 
-```
-$ git clone \
-https://github.com/thehackerwithin/davis
-$ cd davis 
+
+``` 
 $ git checkout failed
 $ docker build -t SillyDemoImageName .
 ```
@@ -109,7 +108,7 @@ $ docker run <CACHED IMAGE HASH>
 $ docker run -ti <CACHED IMAGE HASH> 
 ```
 
-# Commit 
+# Committing image to DockerHub 
 ```
 $ docker commit --help
 ```
@@ -132,16 +131,22 @@ $ docker images
 # only shows running containers 
 $ docker ps     
 
-# show all the containers  
+# shows all the containers  
 $ docker ps -a  
 ```
 
 # Running the HackerWithin site
 ```
-$ cd <DIRECTORY OF HACKERWITHIN GIT REPO>
+$ git clone \
+https://github.com/thehackerwithin/davis
+$ cd davis 
+```
+
+# Running the HackerWithin site
+```
 $ docker run -it \
 -p 4000:4000 \ 
--v $(pwd):/root \
+-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root \
 karenyng/hackerwithin_dockerfile \
 ruby -S jekyll serve \
 --host=0.0.0.0 --watch --force_polling
@@ -161,18 +166,18 @@ Now point your browser to `DOCKER_IP:4000`
 ```
 $ docker run -it \
 -p 4000:4000 \ 
--v $(pwd):/root \
+-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root \
 karenyng/hackerwithin_dockerfile \
 ruby -S jekyll serve \
 --host=0.0.0.0 --watch --force_polling
 ```
-* `docker run` runs a certain image, in this case `hackerwithin` which we have pulled previously
+* `docker run` runs a certain image, in this case `karenyng/hackerwithin_dockerfile` which we have pulled previously
 
 # What did we just do? 
 ```
 $ docker run -it \
 -p 4000:4000 \ 
--v $(pwd):/root \
+-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root \
 karenyng/hackerwithin_dockerfile \
 ruby -S jekyll serve \
 --host=0.0.0.0 --watch --force_polling
@@ -184,7 +189,7 @@ ruby -S jekyll serve \
 ```
 $ docker run -it \
 -p 4000:4000 \ 
--v $(pwd):/root \
+-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root \
 karenyng/hackerwithin_dockerfile \
 ruby -S jekyll serve \
 --host=0.0.0.0 --watch --force_polling
@@ -195,40 +200,45 @@ ruby -S jekyll serve \
 ```
 $ docker run -it \
 -p 4000:4000 \ 
--v $(pwd):/root \
+-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root \
 karenyng/hackerwithin_dockerfile \
 ruby -S jekyll serve \
 --host=0.0.0.0 --watch --force_polling
 ```
-* `-v $(pwd):/root` tells Docker to mount our present working directory (pwd)
-    to `/root` in the container
+`-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root` tells Docker to mount the
+    directory of the Hackerwithin Davis repo to `/root` in the container
+
+<aside class='notes' data-markdown>
+* For Mac users, only directories under `/Users/` can only be mounted 
+* special restrictions apply for Windows as well 
+</aside>
 
 # What did we just do? 
 ```
 $ docker run -it \
 -p 4000:4000 \ 
--v $(pwd):/root \
+-v $PATH_TO_HACKERWITHIN_DAVIS_DIR:/root \
 karenyng/hackerwithin_dockerfile \
 ruby -S jekyll serve \
 --host=0.0.0.0 --watch --force_polling
 ```
-Last two lines tells `Jekyll` to keep on monitoring for changes.
+Last two lines tell `Jekyll` to keep on monitoring for changes.
 
 
 # Clearing up space 
 ```
 $ docker stop CONTAINER_ID 
 $ docker ps -a   # checks local containers 
-$ docker rm CONTAINER_ID # remove container 
+$ docker rm CONTAINER_ID # removes container 
 $ docker images  # checks local images
-$ docker rmi IMAGE_NAME  # remove image 
+$ docker rmi IMAGE_NAME  # removes image 
 ```
 
 # What is next? Use Docker for ...
 * collaboration 
 * running SaaS for a startup
-* running a continuous integration server 
-* running R Studio ([NERSC HPC version](http://rstudio.nersc.gov) / [Jupyter NERSC](http://ipython.nersc.gov) web client
+* running a continuous integration service
+* running R Studio ([NERSC HPC version](http://rstudio.nersc.gov)) or [Jupyter](http://ipython.nersc.gov) web client for remote machines
 
 # Learning resources
 * [Docker tutorial](https://github.com/docker/docker-birthday-3)
@@ -245,7 +255,7 @@ Questions?
 # Hands-on exercises for those who want to run docker images
 difficulty: easy
 
-* run and modify the `HackerWithin` page
+* run and modify the `HackerWithin`[page](https://github.com/thehackerwithin/davis)
 * run [rOpenSci R studio web client](https://hub.docker.com/r/rocker/rstudio/) 
 * run Jupyter [Docker-stack](https://github.com/jupyter/docker-stacks) for `Spark`/ `SparkR`/ `PySpark` / `Scipy` Jupyter notebook in Docker
 * run [`Tensorflow`](https://www.tensorflow.org/versions/r0.7/get_started/os_setup.html#docker-installation)
@@ -254,12 +264,26 @@ difficulty: easy
 difficulty: more involved
 
 * write your own Dockerfile and build your own app
-* use `Docker compose` to run the `Docker` 3rd birthday web app [tutorial](http://www.meetup.com/Docker-Galway/events/228871179/)
+* use `Docker compose` to run the `Docker` 3rd birthday web app [tutorial](https://github.com/docker/docker-birthday-3)
 * setup the `HortonWorks Data Platform`
     [sandbox](https://hub.docker.com/r/torusware/hortondataplatform-examples/) for playing with `Hadoop` and `Spark` in Docker
-* Challenge: write the Dockerfile(s) for Astrophysics codes, e.g.   
+* challenge: write the Dockerfile(s) for Astrophysics codes, e.g.   
     * [Cosmosis](https://bitbucket.org/joezuntz/cosmosis/wiki/Home),
     * [Astrometry.net](http://astrometry.net/)
+
+# Incomplete collection of useful commands
+Restart stopped container
+```
+$ docker start CONTAINER_ID 
+$ docker attach CONTAINER_ID
+``````
+
+# Incomplete collection of useful commands
+If your container is running in background
+and you want to use the command prompt inside the container
+```
+$ docker exec -it $(docker ps -q) bash
+```
 
 
 [1]: http://7030-presscdn-0-54.pagely.netdna-cdn.com/wp-content/uploads/2014/01/homepage-docker-logo.png 
@@ -269,4 +293,3 @@ difficulty: more involved
 [5]: img/docker_spring2016/docker_vs_vmware.jpg
 [6]: img/docker_spring2016/terminology.png
 [7]: img/docker_spring2016/docker_birthday.png
-[8]: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjIg72Z39zLAhWD6CYKHVoKCsYQjRwIBw&url=http%3A%2F%2Fwww.memegen.com%2Fmeme%2Fllhckr&psig=AFQjCNHs01o0ODuSEkY2794lcE1wqVeOyA&ust=1459026309354409
