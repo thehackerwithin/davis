@@ -8,7 +8,9 @@ Speaker: [Karen Ng](http://karenyyng.github.io)
 * Why Docker?
 * What is Docker?
 * Basic docker terminologies and commands
-* Hands-on exercise: Using Docker to update theHackerWithin Davis chapter website 
+* Hands-on exercise: 
+	* build a Docker image
+	* run Docker container to update theHackerWithin Davis chapter website 
 * Markdown outline of slides available
     [here](https://github.com/karenyyng/davis/blob/gh-pages/meeting-materials/2016-04-14/docker_slides.md)
 
@@ -23,28 +25,72 @@ Speaker: [Karen Ng](http://karenyyng.github.io)
 	* teaching (and grading)
 
 # What is Docker? 
-Software container = Operating-System-level virtualization   
+> An open-source technology that allows you to package an app with all its dependencies into a
+standardized unit for software development.    
+-Docker website
+
 ![][4]
+<aside class='notes' data-markdown>
+for example in this diagram, each of these colored boxes shows you a container,
+containing an app.
+And the bottom box shows your server / host machine  
+on top you have whatever operating system that is running
+    on the host machine, in this case this diagram assumes the OS on the host
+    machine is Linux.
+Running on top of the host OS is the docker engine.
+Each of Docker container that runs on top of the docker engine captures 
+all the software dependencies, 
+including the runtime, system tools, system libraries and other dependencies.
+Since docker assumes that each app would run inside a certain
+flavor of Linux, docker allows the system services in the container to bind
+directly to the kernel of the host OS without introducing extra overhead.
+And I will show you how this differs if the host OS is not Linux.
+</aside>
+
 
 # What is Docker? 
-Fast startup time (~500 ms)    
-![][4]
+* One container for running approximately one app     
 
-# What is Docker? 
-One container for approximately one app   
 ![][4]
+<aside class='notes' data-markdown>
+It is not a strict rule to only have one piece of software in a container. 
+Use any logical unit to group several pieces that have dependencies. 
+But each container is isolated by default. 
+You can tweak the settings so each container is secure from outside attacks. 
+</aside>
 
-# Docker vs virtual machines (VM)
-VM = hardware level virtualization
+#  Virtual machines (left) vs Docker (right)
 ![][5]
+Software container = operating-system-level virtualization   
+VM = hardware level virtualization
 
-# Docker vs virtiual machines (VM)
+<aside class='notes' data-markdown>
+On the left, for there to be isolation of different apps, you need several
+virtual machines, each running an additional OS.
+On the right, for Docker, all the different containers can share the same
+operating system kernel. 
+This means that Docker is more efficient with its resources. 
+</aside>
+
+#  Virtual machines (left) vs Docker (right)
 VM has more overhead   
 ![][5]
 
+# What is Docker? 
+* Containers start up faster (~500 ms)    
+
+![][5]
+<aside class='notes' data-markdown>
+This also means that once the docker daemon is running each app can be started very quickly.
+Later on we will also see that each container can contain some runtime 
+instructions to specify how each app should be run.
+</aside>
 
 
-# Launch Docker quickstart terminal (Mac and Windows User)
+# Launch Docker quickstart terminal    
+(Mac and Windows User)
+![][8]
+
 Linux users execute:
 ```
 $ sudo docker -d & 
@@ -62,8 +108,17 @@ searches Dockerhub for an image file
 # Docker image 
 ![Fig. Docker infrastructure if host machine is Linux. (fig stolen from Docker)][6]
 
-* static image of an OS along with the software
+* static image that packages Linux system runtime / library files along with the software
 * can have parent / base image
+* immutable
+
+<aside class='notes' data-markdown>
+Docker 's ability of being able to build on top of a base image 
+makes it faster to build apps on top of the same image
+vs if you build separate amazon machine images. 
+There are different pros and cons.
+</aside>
+ 
 
 # Container 
 ![Fig. Docker infrastructure if host machine is Linux. (fig stolen from Docker)][6]   
@@ -71,42 +126,42 @@ a running / stopped instance of an image
 
 # Dockerfile 
 * a recipe for building a Docker image
+* can contain runtime configurations
 * [a Dockerfile example](https://github.com/karenyyng/GalSim_dockerfile/blob/v1.3.0/Dockerfile) vs the [original installation guide](https://github.com/GalSim-developers/GalSim/blob/releases/1.3/INSTALL.md)
 
 
-# Docker basic commands 
+# Hands-on session: 
+running some Docker basic commands 
 ```
 $ docker run <IMAGE_NAME> 
 $ docker images 
 $ docker ps 
 ```
 
-# Pulling an image
+# (Some prep for later) Pulling an image
 ```
 $ docker pull <IMAGE_NAME>
 ```
 where we used `<IMAGE_NAME> = karenyng/hackerwithin_dockerfile`      
 
 
-# Hands-on session: building the image from a
-[Dockerfile](https://github.com/karenyyng/hackerwithin_dockerfile/blob/master/Dockerfile)
+# Ex1: Building the image from a [Dockerfile](https://github.com/karenyyng/hackerwithin_dockerfile/blob/master/Dockerfile)
 ```
 $ git clone \
 https://github.com/karenyyng/hackerwithin_dockerfile
 $ cd hackerwithin_dockerfile
 $ vim Dockerfile
 ```
-[ref API](https://docs.docker.com/v1.8/reference/builder/)
+[Dockerfile ref API](https://docs.docker.com/v1.8/reference/builder/)
 
 
 # How did I build and debug the image? 
-
 ``` 
 $ git fetch origin  # fetch all remote branches
 $ git checkout -b failed origin/failed
-$ docker build -t silly .
+$ docker build -t karenyng/silly .
 ```
-where `-t` specifies the built image name.
+where `-t` tags the image with `REPO_NAME/IMAGE_NAME`.
 
 # Debug problematic image 
 Get the CACHED IMAGE HASH from printed message.
@@ -146,12 +201,14 @@ $ docker commit --help
 $ docker commit CONTAINER_ID DOCKERHUB_REPO/IMAGE_NAME:TAG
 ```
 
-# Running the HackerWithin site
+# Ex2: Running the HackerWithin site
 ```
 $ git clone \
 https://github.com/thehackerwithin/davis
 $ cd davis 
 ```
+* keep HackerWithin website files (`html` / markdown) outside container
+* built all software dependencies (`Jekyll`, `Ruby`) inside container
 
 # Running the HackerWithin site
 ```
@@ -246,6 +303,8 @@ $ docker rmi IMAGE_NAME  # removes image
 ```
 
 # What is next? Use Docker for ...
+![][9]
+
 * collaboration 
 * running SaaS for a startup
 * running a continuous integration service
@@ -297,10 +356,12 @@ $ docker exec -it $(docker ps -q) bash
 ```
 
 
-[1]: http://7030-presscdn-0-54.pagely.netdna-cdn.com/wp-content/uploads/2014/01/homepage-docker-logo.png 
-[2]: http://cdn.meme.am/instances/500x/18961028.jpg
-[3]: http://steinim.github.io/slides/devops-i-praksis/img/worked-fine-in-dev.jpg
+[1]: img/docker_spring2016/homepage-docker-logo.png 
+[2]: img/docker_spring2016/18961028.jpg
+[3]: img/docker_spring2016/worked-fine-in-dev.jpg
 [4]: img/docker_spring2016/docker_tech.png
-[5]: img/docker_spring2016/docker_vs_vmware.jpg
+[5]: img/docker_spring2016/docker_vs_vmware.png
 [6]: img/docker_spring2016/terminology.png
 [7]: img/docker_spring2016/docker_birthday.png
+[8]: img/docker_spring2016//applications_folder.png
+[9]: img/docker_spring2016/Screen+Shot+2014-06-13+at+8.34.10+pm.png
