@@ -24,9 +24,10 @@ How to contribute
 =================
 1. Fork and download this repo.
 2. Make sure your fork is up to date with the official Git repo. Read [GitHub
-   documentation](https://help.github.com/articles/syncing-a-fork/) for more
-   detail.
-   ```
-   $ git remote add upstream https://github.com/thehackerwithin/davis.git
-   $ git fetch upstream
-   ```
+   documentation](https://help.github.com/articles/syncing-a-fork/) for more detail.   
+
+```
+$ git remote add upstream https://github.com/thehackerwithin/davis.git    
+$ git fetch upstream       
+$ git pull upstream gh-pages   
+```
