@@ -44,12 +44,16 @@ VM has more overhead
 
 
 
-# Launch Docker quickstart terminal
+# Launch Docker quickstart terminal (Mac and Windows User)
+Linux users execute:
+```
+$ sudo docker -d & 
+```
 
 # Basic Docker terminologies
 
 # Dockerhub 
-an [online registry](link) where you can pull and host publicly available Docker images
+an [online registry](https://hub.docker.com/) where you can pull and host publicly available Docker images
 ```
 $ docker pull karenyng/hackerwithin_dockerfile
 ```
@@ -98,34 +102,34 @@ $ vim Dockerfile
 # How did I build and debug the image? 
 
 ``` 
-$ git checkout failed
-$ docker build -t SillyDemoImageName .
+$ git fetch origin  # fetch all remote branches
+$ git checkout -b failed origin/failed
+$ docker build -t silly .
 ```
 where `-t` specifies the built image name.
 
 # Debug problematic image 
+Get the CACHED IMAGE HASH from printed message.
 ```
-$ docker run <CACHED IMAGE HASH> 
 $ docker run -ti <CACHED IMAGE HASH> 
 ```
 
-# Committing image to DockerHub 
+# Build image then check what images are locally available
 ```
-$ docker commit --help
+$ docker build -t MY_DOCKERHUB_REPONAME/silly .
+$ docker images 
 ```
+`-t` tags the `REPO/IMAGE_NAME`
 
 # Login to DockerHub and push
 ```
-$ docker login
+$ docker login  
+$ docker push MY_DOCKERHUB_REPONAME/silly
 ```
 
 # Or commit Dockerfile to GitHub for an automated build 
 See [DockerHub](https://hub.docker.com/r/karenyng/galsim_dockerfile/)
 
-# Check what images are locally available
-```
-$ docker images 
-```
 
 # Check what containers are running 
 ```
@@ -134,6 +138,12 @@ $ docker ps
 
 # shows all the containers  
 $ docker ps -a  
+```
+
+# Committing the container as an image  
+```
+$ docker commit --help
+$ docker commit CONTAINER_ID DOCKERHUB_REPO/IMAGE_NAME:TAG
 ```
 
 # Running the HackerWithin site
