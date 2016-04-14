@@ -9,7 +9,8 @@ Speaker: [Karen Ng](http://karenyyng.github.io)
 * What is Docker?
 * Basic docker terminologies and commands
 * Hands-on exercise: Using Docker to update theHackerWithin Davis chapter website 
-* Markdown outline of slides available [here]()
+* Markdown outline of slides available
+    [here](https://github.com/karenyyng/davis/blob/gh-pages/meeting-materials/2016-04-14/docker_slides.md)
 
 # Why Docker?
 ![][2]
