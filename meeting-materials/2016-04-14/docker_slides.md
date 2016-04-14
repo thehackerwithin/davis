@@ -67,7 +67,7 @@ a running / stopped instance of an image
 
 # Dockerfile 
 * a recipe for building a Docker image
-* [an Dockerfile example](https://github.com/karenyyng/GalSim_dockerfile/blob/v1.3.0/Dockerfile) vs the [original installation guide](https://github.com/GalSim-developers/GalSim/blob/releases/1.3/INSTALL.md)
+* [a Dockerfile example](https://github.com/karenyyng/GalSim_dockerfile/blob/v1.3.0/Dockerfile) vs the [original installation guide](https://github.com/GalSim-developers/GalSim/blob/releases/1.3/INSTALL.md)
 
 
 # Docker basic commands 
